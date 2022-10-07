@@ -21,9 +21,9 @@
   * Request body: { "points": int }
   
 ## Run
-1. In Windows open Command Prompt
+1. Open Command Prompt/Terminal
 2. Navigate to folder where FetchRewards.sln is located
-3. Execute command `dotnet run .\FetchRewards.sln`
+3. Execute command `dotnet run .\FetchRewards.sln` (On Mac if command does not work, run `ln -s /usr/local/share/dotnet/dotnet /usr/local/bin/`)
 4. Open Postman and enter `https://localhost:5001/` as the request url,
 5. Select type of request such as GET and add correct route to the request url such as `/transactions` (EX: `https://localhost:5001/transactions`)
 6. DONE!
